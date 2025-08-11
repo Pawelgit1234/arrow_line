@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "arrowline",
+	"version": "${version}",
+	"name": "Arrow Line",
+	"description": "Draws a line tracing the arrow’s flight path",
+	"authors": [
+		"Spichka"
+	],
+	"contact": {
+		"homepage": "https://www.youtube.com/@Spichka_",
+		"sources": "https://github.com/Pawelgit1234/arrow_line"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/arrowline/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"spichka.arrowline.ArrowLine"
+		],
+		"fabric-datagen": [
+			"spichka.arrowline.ArrowLineDataGenerator"
+		]
+	},
+	"mixins": [
+		"arrowline.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
