@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"spichka.arrowline.ArrowLineDataGenerator"
+		],
+		"client": [
+			"spichka.arrowline.ArrowLineClient"
 		]
 	},
 	"mixins": [
